@@ -1,10 +1,10 @@
 # Overview
 
-This program is part of my beginning steps in my journey as a computer engineer in regards to software development to be used along with hardware.
+This program is part of my beginning steps in my journey as a computer engineer in regards to software development to go aside with hardware
 
 A Simple Hello World Program made in python.
 
-This software was created to test my knowledge of python and using github.
+This software was created to test my knowledge of python and using Github.
 
 [Software Demo Video](https://youtu.be/4OZyk79wu_Y)
 
@@ -12,7 +12,7 @@ This software was created to test my knowledge of python and using github.
 
 The tool mainly used to create this program was Visual Studio Code.
 
-The programming language used in this program, Python, has a vareity of use cases including mathematics, software developing, and scripting.
+The programming language used in this program, Python, has a variety of use cases. Some of this use cases are software development and mathematics.
 
 # Useful Websites
 
