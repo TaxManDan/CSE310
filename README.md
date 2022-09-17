@@ -12,7 +12,7 @@ This software was created to test my knowledge of python and using github.
 
 The tool mainly used to create this program was Visual Studio Code.
 
-Python is a programming language that can be used for a vareity of tasks including mathematics, software developing, and scripting.
+The programming language used in this program was Python that has a vareity of use cases including mathematics, software developing, and scripting.
 
 # Useful Websites
 
