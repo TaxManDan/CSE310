@@ -4,7 +4,7 @@ The software I wrote is an Map information system that display info on place I h
 
 I wrote this software to keep track of places I have either gone on a run at or had a race at.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/6WHBs-LmdqA)
 
 # Development Environment
 
@@ -14,7 +14,6 @@ The programming language mainly used was JavaScript using libraries from Esri.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [ArcGIS](https://developers.arcgis.com/javascript/latest/)
 * [ESRI](https://www.esri.com/en-us/home)
 

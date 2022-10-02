@@ -28,15 +28,19 @@ function (esriConfig,
     zoom: 8, // Zoom level
     container: "viewDiv" // Div element
   });
+  
+  // Added another basemap 
   const basemapToggle = new BasemapToggle({
     view: view,
     nextBasemap: "arcgis-imagery"
   });
 
+  // Code for switching basemaps
   const graphicsLayer = new GraphicsLayer();
   map.add(graphicsLayer);
   view.ui.add(basemapToggle, "bottom-right");
 
+ // Marker Code
   const simpleMarkerSymbol = {
     type: "simple-marker",
     color: [226, 119, 40],  // Orange
@@ -45,11 +49,14 @@ function (esriConfig,
         width: 1
     }
  };
+ 
+ // Popup template Code
  const popupTemplate = {
   title: "{Name}",
   content: "{Description}"
 };
 
+// Marker Location Code
   const point1 = { //BYU-I Track
     type: "point",
     longitude: -111.785456,
@@ -168,7 +175,7 @@ longitude: -116.346390,
 latitude: 43.625938
 };
 
-
+// Popup attributes code
 const attributes1 = {
   Name: "Run #1",
   Description: "The BYUI Track"
@@ -255,7 +262,7 @@ const attributes20 = {
 
 
 
-
+//creation of the marker and popup Graphics
 const run1 = new Graphic({
   geometry: point1,
   symbol: simpleMarkerSymbol,
@@ -434,6 +441,7 @@ const run20 = new Graphic({
   popupTemplate: popupTemplate
 })
 
+//added the graphics to the map
 graphicsLayer.add(run1);
 graphicsLayer.add(run2);
 graphicsLayer.add(run3);
