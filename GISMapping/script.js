@@ -24,8 +24,8 @@ function (esriConfig,
 
   const view = new MapView({
     map: map,
-    center: [-111.805, 43.927], // Longitude, latitude
-    zoom: 10, // Zoom level
+    center: [-113.805, 43.927], // Longitude, latitude
+    zoom: 8, // Zoom level
     container: "viewDiv" // Div element
   });
   const basemapToggle = new BasemapToggle({
@@ -50,122 +50,122 @@ function (esriConfig,
   content: "{Description}"
 };
 
-  const point1 = { //Create a point
+  const point1 = { //BYU-I Track
     type: "point",
-    longitude: -111.80657463861,
-    latitude: 43.8005930608889
+    longitude: -111.785456,
+    latitude: 43.820912
  };
 
- const point2 = { //Create a point
+ const point2 = { //Porter Park
   type: "point",
-  longitude: -111.90757463861,
-  latitude: 43.8005930608889
+  longitude: -111.790528,
+  latitude: 43.823501
 };
 
-const point3 = { //Create a point
+const point3 = { //Smith Park
   type: "point",
-  longitude: -111.82657463861,
-  latitude: 43.8005930608889
+  longitude: -111.773678,
+  latitude: 43.827241
 };
 
-const point4 = { //Create a point
+const point4 = { //Upper Fields Loop
   type: "point",
-  longitude: -111.81657463861,
-  latitude: 43.8005930608889
+  longitude: -111.784829,
+  latitude: 43.808725
 };
-const point5 = { //Create a point
+const point5 = { //Nature Park
   type: "point",
-  longitude: -111.83657463861,
-  latitude: 43.8105930608889
+  longitude: -111.801355,
+  latitude: 43.834349
 };
  
-const point6 = { //Create a point
+const point6 = { //Henry's Fork
   type: "point",
-  longitude: -111.80657463861,
-  latitude: 43.8705930608889
+  longitude: -111.886754,
+  latitude: 43.837392
 };
 
-const point7 = { //Create a point
+const point7 = { //Upper Fields
 type: "point",
-longitude: -111.80157463861,
-latitude: 43.8005930608889
+longitude: -111.785512,
+latitude: 43.812886
 };
 
-const point8 = { //Create a point
+const point8 = { //University Hills
 type: "point",
-longitude: -111.82957463861,
-latitude: 43.8005930608889
+longitude: -111.789590,
+latitude: 43.809402
 };
 
-const point9 = { //Create a point
+const point9 = { //I-Center Track
 type: "point",
-longitude: -111.84657463861,
-latitude: 43.8005930608889
+longitude: -111.784297,
+latitude: 43.818224
 };
 
-const point10 = { //Create a point
+const point10 = { //Walmart Run
 type: "point",
-longitude: -111.80657463861,
-latitude: 43.8105930608889
+longitude: -111.774444,
+latitude: 43.855171
 };
 
-const point11 = { //Create a point
+const point11 = { //RMHS Track
   type: "point",
-  longitude: -111.80657463861,
-  latitude: 43.8605930608889
+  longitude: -116.408952,
+  latitude: 43.653646
 };
 
-const point12 = { //Create a point
+const point12 = { //Eagle Island Park
 type: "point",
-longitude: -111.80757463861,
-latitude: 43.8095930608889
+longitude: -116.397358,
+latitude: 43.685664
 };
 
-const point13 = { //Create a point
+const point13 = { //Heros Park
 type: "point",
-longitude: -111.82657463861,
-latitude: 43.8205930608889
+longitude: -116.430424,
+latitude: 43.656995
 };
 
-const point14 = { //Create a point
+const point14 = { //Settlers Park
 type: "point",
-longitude: -111.81657463861,
-latitude: 43.8005930608889
+longitude: -116.396407,
+latitude: 43.635810
 };
-const point15 = { //Create a point
+const point15 = { //Fuller Park
 type: "point",
-longitude: -111.80657463861,
-latitude: 43.8105930608889
-};
-
-const point16 = { //Create a point
-type: "point",
-longitude: -111.80657463861,
-latitude: 43.8405930608889
+longitude: -116.440478,
+latitude: 43.614931
 };
 
-const point17 = { //Create a point
+const point16 = { //Black Cat Hills
 type: "point",
-longitude: -111.80757463861,
-latitude: 43.8505930608889
+longitude: -116.453763,
+latitude: 43.595267
 };
 
-const point18 = { //Create a point
+const point17 = { //Overland Hills
 type: "point",
-longitude: -111.82657463861,
-latitude: 43.9005930608889
+longitude: -116.432359,
+latitude: 43.590380
 };
 
-const point19 = { //Create a point
+const point18 = { //Bear Creek Park
 type: "point",
-longitude: -111.81657463861,
-latitude: 43.8705930608889
+longitude: -116.401652,
+latitude: 43.583755
 };
 
-const point20 = { //Create a point
+const point19 = { //CPCS Grass
 type: "point",
-longitude: -111.84657463861,
-latitude: 43.8105930608889
+longitude: -116.451527,
+latitude: 43.607207
+};
+
+const point20 = { //Kleiner Park
+type: "point",
+longitude: -116.346390,
+latitude: 43.625938
 };
 
 
@@ -187,70 +187,70 @@ const attributes4 = {
 };
 const attributes5 = {
   Name: "Run #5",
-  Description: "I am a polygon"
+  Description: "Nature Park"
 };
 
 const attributes6 = {
   Name: "Run #6",
-  Description: "I am a polygon"
+  Description: "Henry's Fork"
 };
 const attributes7 = {
   Name: "Run #7",
-  Description: "I am a polygon"
+  Description: "Upper Fields"
 };
 const attributes8 = {
   Name: "Run #8",
-  Description: "I am a polygon"
+  Description: "University Hills"
 };
 const attributes9 = {
   Name: "Run #9",
-  Description: "I am a polygon"
+  Description: "I-Center Track"
 };
 const attributes10 = {
   Name: "Run #10",
-  Description: "I am a polygon"
+  Description: "Walmart Run"
 };
 
 const attributes11 = {
   Name: "Run #11",
-  Description: "I am a polygon"
+  Description: "RMHS Track"
 };
 const attributes12 = {
   Name: "Run #12",
-  Description: "I am a polygon"
+  Description: "Eagle Island Park"
 };
 const attributes13 = {
   Name: "Run #13",
-  Description: "I am a polygon"
+  Description: "Heros Park"
 };
 const attributes14 = {
   Name: "Run #14",
-  Description: "I am a polygon"
+  Description: "Settlers Park"
 };
 const attributes15 = {
   Name: "Run #15",
-  Description: "I am a polygon"
+  Description: "Fuller Park"
 };
 
 const attributes16 = {
   Name: "Run #16",
-  Description: "I am a polygon"
+  Description: "Black Cat Hills"
 };
 const attributes17 = {
   Name: "Run #17",
-  Description: "I am a polygon"
+  Description: "Overland Hills"
 };
 const attributes18 = {
   Name: "Run #18",
-  Description: "I am a polygon"
+  Description: "Bear Creek Park"
 };
 const attributes19 = {
   Name: "Run #19",
-  Description: "I am a polygon"
+  Description: "CPCS Grass"
 };
 const attributes20 = {
   Name: "Run #20",
-  Description: "I am a polygon"
+  Description: "Kleiner Park"
 };
 
 
