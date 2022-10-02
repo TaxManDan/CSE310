@@ -434,8 +434,6 @@ const run20 = new Graphic({
   popupTemplate: popupTemplate
 })
 
-
-
 graphicsLayer.add(run1);
 graphicsLayer.add(run2);
 graphicsLayer.add(run3);

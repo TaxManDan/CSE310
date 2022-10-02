@@ -4,25 +4,23 @@ The software I wrote is an Map information system that display info on place I h
 
 I wrote this software to keep track of places I have either gone on a run at or had a race at.
 
-
-
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The tools I used to develop this project were Visual Studio and the ArcGIS API.
 
-{Describe the programming language that you used and any libraries.}
+The programming language mainly used was JavaScript using libraries from Esri.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [ArcGIS](https://developers.arcgis.com/javascript/latest/)
+* [ESRI](https://www.esri.com/en-us/home)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Future Additions
+* Add my Times to places
+* Add what Races I have ran at the locations
+* Add info on how the course felt
